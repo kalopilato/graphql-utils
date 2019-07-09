@@ -1,0 +1,8 @@
+{
+  "outputPath": "output",
+  "fileNames": {
+    "schemaObject": "schema.json",
+    "schemaString": "schema.graphql",
+    "introspection": "introspection.json"
+  }
+}

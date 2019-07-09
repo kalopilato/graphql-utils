@@ -1,0 +1,23 @@
+{
+  "name": "graphql-utils",
+  "version": "1.0.0",
+  "description": "Utilities for interacting with GraphQL APIs",
+  "main": "index.js",
+  "scripts": {
+    "introspect": "node ./bin/introspect.js",
+    "generate-schema-object": "node ./bin/generateSchemaObject",
+    "generate-schema-string": "node ./bin/generateSchemaString",
+    "start": "npm run introspect && npm run generate-schema-object && npm run generate-schema-string",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kalo Pilato",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "graphql": "^14.4.2",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  }
+}
