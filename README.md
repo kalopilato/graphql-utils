@@ -47,3 +47,7 @@ Create a schema string from the result of the introspection query and write it t
 ```bash
 npm run generate-schema-string
 ```
+
+#### Generate a fragment types string
+
+Creates a fragment types JSON file from the result of the introspection query and write it to disk. The resulting file can be used in Apollo Client's `IntrospectionFragmentMatcher` as a solution for working with unions/interfaces.

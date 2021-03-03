@@ -7,7 +7,8 @@
     "introspect": "node ./bin/introspect.js",
     "generate-schema-object": "node ./bin/generateSchemaObject",
     "generate-schema-string": "node ./bin/generateSchemaString",
-    "start": "npm run introspect && npm run generate-schema-object && npm run generate-schema-string",
+    "generate-fragment-types-string": "node ./bin/generateFragmentTypesString",
+    "start": "npm run introspect && npm run generate-schema-object && npm run generate-schema-string && npm run generate-fragment-types-string",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Kalo Pilato",
