@@ -3,6 +3,7 @@
   "fileNames": {
     "schemaObject": "schema.json",
     "schemaString": "schema.graphql",
-    "introspection": "introspection.json"
+    "introspection": "introspection.json",
+    "fragmentTypes": "fragmentTypes.json"
   }
 }
